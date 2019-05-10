@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="/static/css/style.css" type="text/css"> 
+
+
+<script>
+    function myFunction1() {
+       window.location.assign("/user");
+    }
+     function myFunction2() {
+       window.location.assign("/company");
+    } 
+    function myFunction3() {
+       window.location.assign("/login");
+    } 
+    function myFunction4() {
+       window.location.assign("/admin");
+    } 
+</script>
+
+
+    <div class="login">
+        <div class="login-screen">
+            <div class="app-title">
+                <h1>API Checks and Login</h1>
+            </div>
+
+            <div class="login-form">
+                 <br>
+                  <input type="button" value="Company API Check" class="btn btn-primary btn-large btn-block"  onclick="myFunction2();" ><br>
+                  <input type="button" value="User API Check" class="btn btn-primary btn-large btn-block"  onclick="myFunction1();" >
+                <br>
+               <input type="button" value="Admin Panel" class="btn btn-primary btn-large btn-block"  onclick="myFunction4();"><br>
+
+                <input type="button" value="Dashboard" class="btn btn-primary btn-large btn-block"  onclick="myFunction3();" >
+                
+            </div>
+        </div>
+    </div>
+
+
+
+<br>
+<div><center><h3 style="font-family:verdana;color:white">Built by Ashish Bhawnani</h3></center></div>
