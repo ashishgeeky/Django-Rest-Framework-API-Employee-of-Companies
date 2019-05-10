@@ -123,3 +123,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 django_heroku.settings(locals())
+
+LOGIN_REDIRECT_URL = '/show'

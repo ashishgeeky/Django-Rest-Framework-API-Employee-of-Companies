@@ -7,6 +7,8 @@ app_name="myapi"
 
 urlpatterns = [
 	path("",views.myhome, name="myhome"),
-    path("login",views.login, name="mylogin"),
+    path("show",views.show, name="show"),
+    path("market",views.mybusiness, name="business"),
+    path("sports",views.mysport, name="sports"),
 
 ]
